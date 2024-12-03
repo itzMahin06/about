@@ -18,7 +18,7 @@ async function updateVisitCount() {
   const username = "itzmahin06";
   const repo = "about";
   const filePath = "visit-counter.json";
-  const token = "your-github-personal-access-token"; // Use a token with repo scope
+  const token = "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"; // Use a token with repo scope
 
   try {
     // Fetch file content
