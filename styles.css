@@ -1,0 +1,84 @@
+
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+
+
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kalpurush', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.container {
+  font-family: 'Kalpurush', sans-serif;
+
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  background: var(--container-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid currentColor;
+}
+
+.links a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0070f3;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.links a:hover {
+  background-color: #005bb5;
+}
+
+.visitor-counter {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.mode-switcher {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.mode-switcher span {
+  font-size: 14px;
+  margin-left: 5px;
+}
