@@ -99,3 +99,29 @@ body.dark {
   background-color: #121212;
   color: #f5f5f5;
 }
+
+/* Styles for Translator Button */
+.translator {
+  position: absolute;
+  top: 10px;
+  right: 70px; /* Adjust position to be beside the mode switcher */
+}
+
+#translate-button {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#translate-button:hover {
+  background-color: #005bb5;
+}
+
+.content h1, .content p {
+  transition: color 0.3s;
+}
