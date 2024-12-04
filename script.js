@@ -48,3 +48,9 @@ translatableElements.forEach((el) => {
   el.textContent = el.getAttribute(`data-${currentLanguage}`);
 });
 translateButton.textContent = currentLanguage === "bn" ? "EN" : "BN";
+
+// JavaScript
+document.getElementById('printButton').addEventListener('click', function () {
+  window.print();
+});
+
