@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+
 @import url('https://fonts.maateen.me/kalpurush/font.css');
 
 
@@ -10,7 +12,7 @@
 }
 
 body {
-  font-family: 'Kalpurush', sans-serif;
+  font-family: 'Kalpurush,Alumni Sans Pinstripe', sans-serif;
 
   display: flex;
   justify-content: center;
@@ -24,7 +26,7 @@ text-align: justify;
 }
 
 .container {
-  font-family: 'Kalpurush', sans-serif;
+  font-family: 'Kalpurush,Alumni Sans Pinstripe', sans-serif;
 
   max-width: 400px;
   width: 100%;
