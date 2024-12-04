@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -28,7 +28,7 @@ text-align: justify;
 .container {
   font-family: Kalpurush, Alumni Sans Pinstripe, sans-serif;
 
-  max-width: 400px;
+  
   width: 100%;
   text-align: center;
   background: var(--container-bg);
