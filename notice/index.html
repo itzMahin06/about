@@ -64,6 +64,30 @@
             font-size: 16px;
             font-weight: bold;
         }
+        /* CSS */
+.print-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.print-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.print-btn:active {
+  background-color: #3e8e41;
+  transform: translateY(0);
+}
+
     </style>
 </head>
 <body>
@@ -82,5 +106,16 @@
         এসএসসি ব্যাচ-২২<br>
         মেলান্দহ উমির উদ্দিন পাইলট উচ্চ বিদ্যালয়
     </div>
+    <!-- HTML -->
+<button id="printButton" class="print-btn">
+  🖨️ Print
+</button>
 </body>
+    <script>
+        // JavaScript
+document.getElementById('printButton').addEventListener('click', function () {
+  window.print();
+});
+
+    </script>
 </html>
