@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>যোগাযোগ</title>
+  <style>
+     
+.entry-title {display: none}
+    
+label {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+ /* General Reset */
+
+
+input[type="file"] {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  height: 48px;
+  border: 2px dashed #d1d5db;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #6b7280;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="file"]::file-selector-button {
+  display: none;
+}
+
+input[type="file"]::before {
+  content: 'Choose a file (PNG, JPEG)';
+  font-size: 0.7rem;
+  color: #6b7280;
+}
+
+input[type="file"]:hover {
+  border-color: #3b82f6;
+  background-color: #f0f9ff;
+}
+
+input[type="file"]:hover::before {
+  color: #3b82f6;
+}
+
+input[type="file"]:active {
+  border-color: #2563eb;
+}   
+
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        
+  
+        <section>
+            <h2> মূল অংশ </h2>
+            <!-- Blogger Contact Form --> 
+             <form action="https://formsubmit.co/d9dc809d169cf11610f42df4e6cf531e" method="POST" enctype="multipart/form-data">
+                <label for="name">আপনার নাম:</label><br>
+                <input type="text" id="name" name="name" placeholder="আপনার সম্পূর্ণ নাম লিখুন" required><br><br>
+
+                <label for="email">ইমেইল ঠিকানা:</label><br>
+                <input type="email" id="email" name="email" placeholder="আপনার ইমেইল লিখুন" required><br><br>
+
+                <label for="message"> মেসেজ </label><br>
+                <textarea id="message" name="message" placeholder="মেসেজ লিখুন" rows="4" required></textarea><br><br>           
+ <label for="message"> সংযুক্ত করুন: </label><br>
+               <input type="file" name="attachment" accept="image/png, image/jpeg, file/pdf">            
+               
+<input type="hidden" name="_captcha" value="false"> 
+               <input type="hidden" name="_next" value="https://bangla-kobita.maahin.my.id/p/thanks-poem.html">
+          
+           <br>  
+            <br>   
+               <button type="submit"> জমা দিন </button>
+               
+            </form>
+        </section>
+ 
+        <section> 
+            <h2>অন্য উপায়ে যোগাযোগ</h2>
+            <p>
+                ইমেইল: <a href="mailto:send@maahin.my.id">send@maahin.my.id</a><br>
+                ওয়েবসাইট: <a href="https://bangla-kobita.maahin.my.id" target="_blank">bangla-kobita.maahin.my.id</a>
+            </p>
+        </section>  
+    </main>
+    
+</body>
+</html>
